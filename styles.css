@@ -1,0 +1,9 @@
+.iframely-embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10vh;
+  height: auto;
+  max-width: 50vw;
+}
