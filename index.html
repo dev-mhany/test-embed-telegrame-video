@@ -3,39 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Embedded Video</title>
+    <style>
+      /* Ensuring the video takes the full available width and height */
+      video {
+        width: 50%;
+        height: auto; /* Maintain aspect ratio */
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <div class="iframely-embed">
-        <div
-          style="
-            left: 0;
-            width: 100%;
-            height: 0;
-            position: relative;
-            padding-bottom: 56.25%;
-          "
-        >
-          <iframe
-            id="iframe"
-            title="Iframe Embed"
-            src="//iframely.net/Z7ewix6"
-            style="
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              border: 0;
-            "
-            allowfullscreen
-            allow="encrypted-media *;"
-          ></iframe>
-        </div>
-      </div>
-    </div>
-    <script async src="//iframely.net/embed.js"></script>
+    <video
+      src="https://cdn4.cdn-telegram.org/file/7e13ff1bf4.mp4?token=GEitgQB9ObDt8hM8bVb-Xri7TSDsPOpLsnfFEw8GjwzMuGZ6WQIDc-x5cd0q0oIhv-Q4cu27mbwJyQ-KoC6h7F7PFc4GHayUGuMiv8fHbrEGtykIzzyRQOZO8HOkgS1OGGlS64KakzkG4S7TgXsKMEhyCl-xvjkZL53qG5N_hdPKzafiQts-MG_pQxOlyqUgHAe035BEaERIu_Oy8nCQlFWfsHQDMfivK_g6JHjxurmV4HiDoo_7P82zp4-hyvMb3bpoQ-_5pCq_AFZ_VfIqwgdOpk_hV5CnpkzkAu2C4sRcUVpgKdAkBMmjjv9LI7ZMEzZ3QZKJvYnlQCPnWcuc0w"
+      controls
+      autoplay
+    >
+      Your browser does not support the video tag.
+    </video>
   </body>
 </html>
